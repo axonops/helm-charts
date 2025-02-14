@@ -40,7 +40,7 @@ jobs:
       - name: Helm Chart Releaser
         uses: helm/chart-releaser-action@v1.7.0
         with:
-          pages_branch: gh-pages
+          pages_branch: main
         env:
           CR_TOKEN: "${{ secrets.GITHUB_TOKEN }}"
 
