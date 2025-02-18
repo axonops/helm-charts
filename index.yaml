@@ -3,7 +3,7 @@ entries:
   axonops:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2025-02-14T15:27:07.157124Z"
+    created: "2025-02-18T14:59:16.228917Z"
     dependencies:
     - condition: global.elasticsearch.enabled
       name: elasticsearch
@@ -17,10 +17,10 @@ entries:
       dependencies ElasticSearch and Apache Cassandra. You may optionally enable or
       disable the dependencies by setting the the values in the global section. Please
       refer to the https://axonops.com/docs/installation/kubernetes/ for more information. '
-    digest: 0fbddba5229eddcc7a22d1aa92f5c80c5e84c1e3e5ea600a7eb517867bfa315c
+    digest: 6971e2da60906a8628f41a9efc1fd62a43f21d3370a30968bfbb0eb4dde06451
     name: axonops
     type: application
     urls:
     - https://axonops.github.io/helm-charts/charts/axonops-0.11.0.tgz
     version: 0.11.0
-generated: "2025-02-14T15:27:07.146722Z"
+generated: "2025-02-18T14:59:16.220524Z"
